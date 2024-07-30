@@ -49,7 +49,7 @@ function App() {
  		</Routes> */}
  			
         <Routes>
-		  <Route path='/' element={authUser ? <Navigate to='/home' /> : <Initialbody/>}/>
+		      <Route path='/' element={authUser ? <Navigate to='/'/> : <Initialbody/> }/>
           <Route path='/home' element={authUser ? <Home /> : <Navigate to='/' />} />
           <Route path='/login' element={authUser ? <Navigate to='/home' /> : <Login />} />
           <Route path='/signup' element={authUser ? <Navigate to='/home' /> : <SignUp />} />
