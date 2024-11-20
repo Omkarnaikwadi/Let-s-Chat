@@ -31,11 +31,14 @@ Let's-Chat is a real-time chat application built using the MERN stack (MongoDB, 
 ## Screenshots
 Here are some screenshots of the application:
 
+### Signup Page
+![Signup Page](./ScreenShots/signup.png)
+
 ### Login Page
 ![Login Page](./ScreenShots/login.png)
 
 ### Chat Interface
-![Signup Page](./ScreenShots/signup.png)
+![Chat Interface](./ScreenShots/chatinter.png)
 
 ## Setup Instructions
 
@@ -48,3 +51,33 @@ Here are some screenshots of the application:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Omkarnaikwadi/Let-s-Chat.git
+
+2. Install dependencies for the backend:
+    ```bash
+    cd backend
+    npm install
+
+3. Install dependencies for the frontend:
+    ```bash
+    cd frontend
+    npm install
+
+4. Create an .env file in the backend directory with the following variables:
+
+    ```bash
+    PORT=8000
+    MONGO_DB_URI=your_mongodb_connection_uri
+    JWT_SECRET=your_jwt_secret
+    NODE_ENV=development
+
+5. Run the backend server:
+
+    ```bash
+    cd backend
+    nodemon server.js
+
+6. Run the frontend server:
+
+    ```bash
+    cd frontend
+    npm run dev
