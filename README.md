@@ -14,7 +14,7 @@ npm run build
 npm start
 ``` -->
 # Let's-Chat Application
-
+[Let's-Chat Live Demo](https://let-s-chat-aqud.onrender.com/)
 Let's-Chat is a real-time chat application built using the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to sign up, log in, and chat with others in real-time.
 
 ## Features
@@ -27,6 +27,12 @@ Let's-Chat is a real-time chat application built using the MERN stack (MongoDB, 
 - **Frontend**: React.js, TailwindCSS, DaisyUI, Vite
 - **Backend**: Node.js, Express.js, Socket.io
 - **Database**: MongoDB
+
+
+## Live Demo
+Check out the live demo of the application:
+
+[Let's-Chat Live Demo](https://let-s-chat-aqud.onrender.com/)
 
 ## Screenshots
 Here are some screenshots of the application:
