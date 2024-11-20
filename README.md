@@ -28,12 +28,6 @@ Let's-Chat is a real-time chat application built using the MERN stack (MongoDB, 
 - **Backend**: Node.js, Express.js, Socket.io
 - **Database**: MongoDB
 
-
-## Live Demo
-Check out the live demo of the application:
-
-[Let's-Chat Live Demo](https://let-s-chat-aqud.onrender.com/)
-
 ## Screenshots
 Here are some screenshots of the application:
 
